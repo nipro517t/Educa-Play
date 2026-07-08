@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://pqa22025m6ig"]
 
 [ext_resource type="Script" uid="uid://b5cyaswek6eq" path="res://scripts/MenuPrincipal.gd" id="1_ffwdg"]
-[ext_resource type="Texture2D" uid="uid://liaa14pe8cml" path="res://acerts/WhatsApp Image 2026-07-08 at 10.28.17.jpeg" id="2_ysajj"]
+[ext_resource type="Texture2D" uid="uid://liaa14pe8cml" path="res://assets/WhatsApp Image 2026-07-08 at 10.28.17.jpeg" id="2_ysajj"]
 
 [node name="MenuPricipal" type="Control" unique_id=155960773]
 layout_mode = 3
@@ -13,8 +13,8 @@ grow_vertical = 2
 script = ExtResource("1_ffwdg")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2110059044]
-position = Vector2(590.5, 395)
-scale = Vector2(0.8284723, 1.15)
+position = Vector2(600.00006, 400)
+scale = Vector2(0.8333333, 1.111111)
 texture = ExtResource("2_ysajj")
 
 [node name="BotaoEsquerda" type="Button" parent="." unique_id=1198073144]
