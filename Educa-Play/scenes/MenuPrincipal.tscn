@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://pqa22025m6ig"]
+
+[ext_resource type="Script" uid="uid://b5cyaswek6eq" path="res://scripts/MenuPrincipal.gd" id="1_ffwdg"]
+
+[node name="MenuPricipal" type="Control" unique_id=155960773]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ffwdg")
+
+[node name="BotaoEsquerda" type="Button" parent="." unique_id=1198073144]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -100.0
+offset_right = 120.0
+offset_bottom = 100.0
+grow_vertical = 2
+text = "<"
+
+[node name="BotaoDireita" type="Button" parent="." unique_id=1209916536]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -120.0
+offset_top = -100.0
+offset_bottom = 100.0
+grow_horizontal = 0
+grow_vertical = 2
+text = ">"
+
+[node name="CardCentral" type="Panel" parent="." unique_id=150327432]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -200.0
+offset_right = 300.0
+offset_bottom = 250.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TituloJogo" type="Label" parent="." unique_id=1775452588]
+layout_mode = 0
+offset_left = 292.0
+offset_top = 153.0
+offset_right = 571.0
+offset_bottom = 198.0
+theme_override_font_sizes/font_size = 29
+text = "JOGO DAS VOGAIS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TituloGeral" type="Label" parent="." unique_id=1601156382]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -156.0
+offset_top = 11.0
+offset_right = 156.0
+offset_bottom = 66.00012
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 40
+text = "Alfabetiza Play"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="BotaoEsquerda" to="." method="_on_botao_esquerda_pressed"]
+[connection signal="pressed" from="BotaoDireita" to="." method="_on_botao_direita_pressed"]
