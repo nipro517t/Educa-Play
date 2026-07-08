@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://pqa22025m6ig"]
 
 [ext_resource type="Script" uid="uid://b5cyaswek6eq" path="res://scripts/MenuPrincipal.gd" id="1_ffwdg"]
+[ext_resource type="Texture2D" uid="uid://liaa14pe8cml" path="res://acerts/WhatsApp Image 2026-07-08 at 10.28.17.jpeg" id="2_ysajj"]
 
 [node name="MenuPricipal" type="Control" unique_id=155960773]
 layout_mode = 3
@@ -11,16 +12,20 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ffwdg")
 
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2110059044]
+position = Vector2(590.5, 395)
+scale = Vector2(0.8284723, 1.15)
+texture = ExtResource("2_ysajj")
+
 [node name="BotaoEsquerda" type="Button" parent="." unique_id=1198073144]
 layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
 offset_top = -100.0
-offset_right = 120.0
+offset_right = 156.0
 offset_bottom = 100.0
 grow_vertical = 2
-text = "<"
 
 [node name="BotaoDireita" type="Button" parent="." unique_id=1209916536]
 layout_mode = 1
@@ -29,14 +34,13 @@ anchor_left = 1.0
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
-offset_left = -120.0
+offset_left = -167.0
 offset_top = -100.0
 offset_bottom = 100.0
 grow_horizontal = 0
 grow_vertical = 2
-text = ">"
 
-[node name="CardCentral" type="Panel" parent="." unique_id=150327432]
+[node name="CardCentral" type="TextureButton" parent="." unique_id=1631300906]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -49,6 +53,8 @@ offset_right = 300.0
 offset_bottom = 250.0
 grow_horizontal = 2
 grow_vertical = 2
+ignore_texture_size = true
+stretch_mode = 5
 
 [node name="TituloJogo" type="Label" parent="." unique_id=1775452588]
 layout_mode = 0
@@ -56,6 +62,8 @@ offset_left = 292.0
 offset_top = 153.0
 offset_right = 571.0
 offset_bottom = 198.0
+theme_override_colors/font_color = Color(0.1764706, 1, 1, 0.8509804)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8862745)
 theme_override_font_sizes/font_size = 29
 text = "JOGO DAS VOGAIS"
 horizontal_alignment = 1
@@ -71,8 +79,10 @@ offset_top = 11.0
 offset_right = 156.0
 offset_bottom = 66.00012
 grow_horizontal = 2
-theme_override_font_sizes/font_size = 40
-text = "Alfabetiza Play"
+theme_override_colors/font_color = Color(1.6411257, 1.6411257, 0.1721273, 1)
+theme_override_colors/font_shadow_color = Color(0, 0.17254743, 0.30791175, 1)
+theme_override_font_sizes/font_size = 60
+text = "Educa Play"
 horizontal_alignment = 1
 
 [connection signal="pressed" from="BotaoEsquerda" to="." method="_on_botao_esquerda_pressed"]
