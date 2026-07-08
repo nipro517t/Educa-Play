@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxk06w546lupu"
-path="res://.godot/imported/pngtree-futuristic-digital-technology-blue-background-gaming-interface-wallpaper-image_693021.jpg-f227af0183a088a5142c23871abba89a.ctex"
+uid="uid://liaa14pe8cml"
+path="res://.godot/imported/Background.jpeg-8ba69968d3b0764a8b1dfe45bc15c112.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pngtree-futuristic-digital-technology-blue-background-gaming-interface-wallpaper-image_693021.jpg"
-dest_files=["res://.godot/imported/pngtree-futuristic-digital-technology-blue-background-gaming-interface-wallpaper-image_693021.jpg-f227af0183a088a5142c23871abba89a.ctex"]
+source_file="res://assets/Background.jpeg"
+dest_files=["res://.godot/imported/Background.jpeg-8ba69968d3b0764a8b1dfe45bc15c112.ctex"]
 
 [params]
 

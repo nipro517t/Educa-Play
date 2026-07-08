@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://liaa14pe8cml"
-path="res://.godot/imported/WhatsApp Image 2026-07-08 at 10.28.17.jpeg-b8dbd5f7bee6b7a527d82df75edd6065.ctex"
+uid="uid://coa7x7xm4wv58"
+path="res://.godot/imported/Carro.png-d7e1f4bbcf0aedcd5f76d61fdb8d6935.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/WhatsApp Image 2026-07-08 at 10.28.17.jpeg"
-dest_files=["res://.godot/imported/WhatsApp Image 2026-07-08 at 10.28.17.jpeg-b8dbd5f7bee6b7a527d82df75edd6065.ctex"]
+source_file="res://assets/PistaLetras/Carro.png"
+dest_files=["res://.godot/imported/Carro.png-d7e1f4bbcf0aedcd5f76d61fdb8d6935.ctex"]
 
 [params]
 
