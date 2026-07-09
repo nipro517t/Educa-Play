@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://b7ah0inkvennk"]
+
+[ext_resource type="Script" uid="uid://c6mekkb1wc8uo" path="res://scripts/control.gd" id="1_r8yp4"]
+[ext_resource type="Texture2D" uid="uid://2gd5qhsx5ne0" path="res://assets/29 Sem Título_20260709021436.png" id="2_m0klm"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=2018109670]
+
+[node name="Control" type="Node2D" parent="." unique_id=813057611]
+script = ExtResource("1_r8yp4")
+
+[node name="29SemTítulo20260709021436" type="Sprite2D" parent="Control" unique_id=542552202]
+position = Vector2(1140, 76)
+scale = Vector2(0.07446293, 0.056915287)
+texture = ExtResource("2_m0klm")
+
+[node name="TextureButton" type="Button" parent="Control" unique_id=140885447]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = -1
+anchor_right = 0.017
+anchor_bottom = 0.025
+offset_left = 1070.0
+offset_top = 6.0
+offset_right = 1200.0
+offset_bottom = 159.0
+
+[connection signal="pressed" from="Control/TextureButton" to="Control" method="_on_texture_button_pressed"]

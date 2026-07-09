@@ -5,7 +5,7 @@ extends Control
 var indice_atual
 
 var lista_jogos: Array = [
-	{"nome": "A Pista das Letras", "cena": "res://scenes/jogos/APistaDasLetras.tscn", "imagem": preload("res://assets/disgner/images.jpg")},
+	{"nome": "A Pista das Letras", "cena": "res://scenes/jogos/APistaDasLetras.tscn", "imagem": preload("res://assets/disgner/WhatsApp Image 2026-07-09 at 02.04.43.jpeg")},
 	{"nome": "Cortador de Sílabas", "cena": "res://scenes/jogos/CortadorDeSílabas.tscn", "imagem": preload("res://assets/disgner/download.jpg")},
 	{"nome": "FORMA PALAVRAS", "cena": "res://scenes/jogos/FORMAPALAVRAS.tscn", "imagem": preload("res://assets/disgner/1-jpg-1200px-k8wi5ylara.webp")},
 ]

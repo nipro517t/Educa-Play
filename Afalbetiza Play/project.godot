@@ -18,6 +18,7 @@ config/icon="res://assets/icon.svg"
 [autoload]
 
 AudioManager="*uid://c5p5es6i0416p"
+Pause="*uid://b7ah0inkvennk"
 
 [display]
 
