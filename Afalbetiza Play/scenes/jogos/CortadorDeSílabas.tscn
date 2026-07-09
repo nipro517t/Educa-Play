@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://ub1cwd6ngtmn"]
 
+[ext_resource type="Script" uid="uid://eom34hg3s5eh" path="res://scripts/cortador_de_sílabas.gd" id="1_pf3sf"]
+
 [node name="Control" type="Control" unique_id=758222443]
 layout_mode = 3
 anchors_preset = 15
@@ -7,3 +9,4 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_pf3sf")

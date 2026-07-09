@@ -2,8 +2,8 @@ extends Control
 
 @onready var titulo_jogo = $TituloJogo
 @onready var card_central = $CardCentral
-
 var indice_atual
+
 var lista_jogos: Array = [
 	{"nome": "A Pista das Letras", "cena": "res://scenes/jogos/APistaDasLetras.tscn", "imagem": preload("res://assets/disgner/images.jpg")},
 	{"nome": "Cortador de Sílabas", "cena": "res://scenes/jogos/CortadorDeSílabas.tscn", "imagem": preload("res://assets/disgner/download.jpg")},
