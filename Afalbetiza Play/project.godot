@@ -34,6 +34,8 @@ folder_colors={
 "res://assets/PistaLetras/": "red",
 "res://assets/alfabeto 🔤/": "green",
 "res://assets/bolhaSilabas/": "gray",
+"res://assets/disgner/estouraSilabas/": "teal",
+"res://scenes/jogos/Estourador de Sílabas/": "gray",
 "res://scenes/jogos/alfabetos/": "green"
 }
 

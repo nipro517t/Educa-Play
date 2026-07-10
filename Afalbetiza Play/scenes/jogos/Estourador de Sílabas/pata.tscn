@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://om2b48el00dt" path="res://scripts/Estourador de Sílabas/pata.gd" id="1_tvx68"]
 [ext_resource type="PackedScene" uid="uid://dinehy57wo774" path="res://scenes/jogos/Estourador de Sílabas/bolha.tscn" id="2_vvqr6"]
 [ext_resource type="Texture2D" uid="uid://7brcq53t8mi4" path="res://assets/80161969-fundo-do-jogo-da-arte-do-pixel-com-construção-da-loja-árvores-terra-arbustos-céu-e-nuvens.jpg" id="3_ykl6b"]
+[ext_resource type="Texture2D" uid="uid://bruwxmknvvxpx" path="res://assets/disgner/estouraSilabas/30 Sem Título_20260709225050.png" id="4_vvqr6"]
 
 [node name="Arena" type="Node2D" unique_id=16293884]
 script = ExtResource("1_tvx68")
@@ -53,5 +54,10 @@ layout_mode = 2
 
 [node name="TextureRect3" type="TextureRect" parent="CanvasLayer/MarginContainer/HBoxContainer" unique_id=351618595]
 layout_mode = 2
+
+[node name="30SemTítulo20260709225050" type="Sprite2D" parent="." unique_id=1596549388]
+position = Vector2(603, 151)
+scale = Vector2(0.2375, 0.2625)
+texture = ExtResource("4_vvqr6")
 
 [connection signal="timeout" from="Timer" to="." method="_on_spawn_timer_timeout"]

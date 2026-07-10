@@ -1,13 +1,13 @@
-[gd_scene format=3 uid="uid://b4smstoqlo1xe"]
+[gd_scene format=3 uid="uid://dv1hat02j1b1c"]
 
-[ext_resource type="Script" uid="uid://chyew0ibbpdtp" path="res://scripts/Estourador de Sílabas/bala.gd" id="1_wb2rb"]
-[ext_resource type="PackedScene" uid="uid://dinehy57wo774" path="res://scenes/jogos/Estourador de Sílabas/bolha.tscn" id="2_h87un"]
-[ext_resource type="Texture2D" uid="uid://7brcq53t8mi4" path="res://assets/80161969-fundo-do-jogo-da-arte-do-pixel-com-construção-da-loja-árvores-terra-arbustos-céu-e-nuvens.jpg" id="3_dlrjc"]
-[ext_resource type="Texture2D" uid="uid://gfl67iyi76a5" path="res://assets/disgner/estouraSilabas/30 Sem Título_20260709225253.png" id="4_h87un"]
+[ext_resource type="Script" uid="uid://om2b48el00dt" path="res://scripts/Estourador de Sílabas/pata.gd" id="1_b0y6n"]
+[ext_resource type="PackedScene" uid="uid://dinehy57wo774" path="res://scenes/jogos/Estourador de Sílabas/bolha.tscn" id="2_lva1x"]
+[ext_resource type="Texture2D" uid="uid://7brcq53t8mi4" path="res://assets/80161969-fundo-do-jogo-da-arte-do-pixel-com-construção-da-loja-árvores-terra-arbustos-céu-e-nuvens.jpg" id="3_0wg6f"]
+[ext_resource type="Texture2D" uid="uid://bruwxmknvvxpx" path="res://assets/disgner/estouraSilabas/30 Sem Título_20260709225050.png" id="4_34hd6"]
 
 [node name="Arena" type="Node2D" unique_id=16293884]
-script = ExtResource("1_wb2rb")
-bolha_cena = ExtResource("2_h87un")
+script = ExtResource("1_b0y6n")
+bolha_cena = ExtResource("2_lva1x")
 
 [node name="Timer" type="Timer" parent="." unique_id=503016117]
 wait_time = 1.5
@@ -16,7 +16,7 @@ autostart = true
 [node name="80161969FundoDoJogoDaArteDoPixelComConstruçãoDaLojaÁrvoresTerraArbustosCéuENuvens" type="Sprite2D" parent="." unique_id=1001217503]
 position = Vector2(601, 395.00003)
 scale = Vector2(2.9744444, 2.8032546)
-texture = ExtResource("3_dlrjc")
+texture = ExtResource("3_0wg6f")
 
 [node name="Label" type="Label" parent="." unique_id=1897736545]
 offset_left = 550.0
@@ -55,9 +55,9 @@ layout_mode = 2
 [node name="TextureRect3" type="TextureRect" parent="CanvasLayer/MarginContainer/HBoxContainer" unique_id=351618595]
 layout_mode = 2
 
-[node name="30SemTítulo20260709225253" type="Sprite2D" parent="." unique_id=986989488]
-position = Vector2(626, 117)
-scale = Vector2(0.3260417, 0.34340277)
-texture = ExtResource("4_h87un")
+[node name="30SemTítulo20260709225050" type="Sprite2D" parent="." unique_id=1596549388]
+position = Vector2(603, 151)
+scale = Vector2(0.2375, 0.2625)
+texture = ExtResource("4_34hd6")
 
 [connection signal="timeout" from="Timer" to="." method="_on_spawn_timer_timeout"]
