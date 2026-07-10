@@ -33,6 +33,7 @@ window/handheld/orientation=4
 folder_colors={
 "res://assets/PistaLetras/": "red",
 "res://assets/alfabeto 🔤/": "green",
+"res://assets/bolhaSilabas/": "gray",
 "res://scenes/jogos/alfabetos/": "green"
 }
 
