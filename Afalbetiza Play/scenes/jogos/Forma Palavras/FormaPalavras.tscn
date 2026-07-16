@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://bklsqhroptv72"]
+
+[ext_resource type="Script" uid="uid://bleftjgbav7o4" path="res://scripts/Forma Palavras/forma_palavras.gd" id="1_7ahwj"]
+
+[node name="FormaPalavras" type="Control" unique_id=1115330910]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_right = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7ahwj")
+
+[node name="AlvoContainer" type="HBoxContainer" parent="." unique_id=901284401]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 134.59
+offset_right = 20.0
+offset_bottom = 174.59004
+grow_horizontal = 2
+alignment = 1
+
+[node name="OpcoesContainer" type="HBoxContainer" parent="." unique_id=309778150]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 40.145
+offset_top = -77.859985
+offset_right = 80.145004
+offset_bottom = -37.859985
+grow_vertical = 0
+alignment = 1
+
+[node name="MensagemLabel" type="Label" parent="." unique_id=1562081658]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "Monte a palavra!"
+horizontal_alignment = 1
+
+[node name="IlustracaoPalavra" type="TextureRect" parent="." unique_id=199399763]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 48.955
+offset_right = 20.0
+offset_bottom = 88.95499
+grow_horizontal = 2
