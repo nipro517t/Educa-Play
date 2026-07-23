@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://rrwe7yvxdhfh"]
+[gd_scene format=3 uid="uid://chywiurtrtblb"]
 
-[ext_resource type="Script" uid="uid://c0dxilre0aoy2" path="res://scripts/menupause.gd" id="1_l7b1j"]
+[ext_resource type="Script" uid="uid://dvm8hitlpwbcc" path="res://scripts/menu_dev.gd" id="1_1kgn3"]
 
 [node name="Control" type="Control" unique_id=885335787]
 process_mode = 3
@@ -10,7 +10,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_l7b1j")
+script = ExtResource("1_1kgn3")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=557618185]
 layout_mode = 1
@@ -19,7 +19,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.0030014697, 0.076825894, 0.13558653, 0.6431373)
+color = Color(1, 0, 0, 0.6431373)
 
 [node name="Panel" type="Panel" parent="." unique_id=2098277509]
 layout_mode = 1
@@ -49,8 +49,9 @@ modulate = Color(3.1573774e-05, 0.9684643, 0.9684642, 1)
 self_modulate = Color(0, 0.8689311, 0.86893106, 1)
 show_behind_parent = true
 layout_mode = 2
-theme_override_font_sizes/font_size = 50
-text = "Pausado"
+theme_override_font_sizes/font_size = 45
+text = "teste digitar um valor ali em cima.
+ exemplo: 67"
 
 [node name="Button" type="Button" parent="Panel/VBoxContainer" unique_id=1149290989]
 modulate = Color(1, 0.79607844, 1, 1)
@@ -65,16 +66,29 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 50
 text = "Sair do jogo / Menu"
 
-[node name="Button3" type="Button" parent="." unique_id=876371090]
-modulate = Color(1, 1, 1, 0)
-self_modulate = Color(1, 1, 1, 0)
+[node name="LineEdit" type="LineEdit" parent="." unique_id=1260571184]
 layout_mode = 0
-offset_left = 1111.0
-offset_top = 705.0
-offset_right = 1189.0
-offset_bottom = 782.0
+offset_left = 348.0
+offset_top = 69.0
+offset_right = 760.0
+offset_bottom = 155.0
+theme_override_colors/font_color = Color(0.09411765, 0, 0.8745098, 1)
+theme_override_colors/font_uneditable_color = Color(0.18039216, 0.27058825, 0.8745098, 0.5019608)
+theme_override_colors/font_selected_color = Color(0.101960786, 0, 1, 1)
+placeholder_text = "Aura"
+
+[node name="ButtonSecret" type="Button" parent="." unique_id=1156389103]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 198.0
+offset_right = 178.0
+offset_bottom = 302.0
+theme_override_colors/font_color = Color(0, 0, 0.8745098, 1)
+theme_override_colors/font_focus_color = Color(0, 0.9490196, 0.9490196, 0.84313726)
+theme_override_constants/h_separation = 49
 theme_override_font_sizes/font_size = 50
+text = "¿67?"
 
 [connection signal="pressed" from="Panel/VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Panel/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
-[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="ButtonSecret" to="." method="_on_button_secret_pressed"]

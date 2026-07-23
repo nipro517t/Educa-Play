@@ -56,3 +56,5 @@ func _na_bolha_estourada(texto_estourado):
 		if vidas <= 0:
 			label_palavra.text = "Game Over!"
 			$Timer.stop()	
+			await get_tree().create_timer(2.0).timeout
+			get_tree().change_scene_to_file("res://scenes/MenuPrincipal.tscn") # Ajuste para o caminho do seu menu

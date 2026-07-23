@@ -1,7 +1,7 @@
 extends Node2D
 @export var bolha_cena: PackedScene
 @onready var label: Label = $Label
-signal auraMais
+##signal auraMais
 # Referências dos nós
 @onready var label_palavra = $CanvasLayer/MarginContainer/PalavraAlvo
 @onready var estrelas = [

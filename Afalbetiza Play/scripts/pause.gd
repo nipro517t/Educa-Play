@@ -16,6 +16,9 @@ func adicionar_aura(quantidade: int = 1) -> void:
 	aura += quantidade
 	atualizar_label()
 
+func definir(quantidade: int) -> void:
+	aura = quantidade
+	atualizar_label()
 
 func _on_arena_aura_mais() -> void:
 	aura += 1
@@ -23,7 +26,7 @@ func _on_arena_aura_mais() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	label.text = "Aura: "  + str(aura)
 
 

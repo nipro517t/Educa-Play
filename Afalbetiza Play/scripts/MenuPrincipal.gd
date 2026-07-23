@@ -7,7 +7,7 @@ var indice_atual
 var lista_jogos: Array = [
 	{"nome": "A Pista das Letras", "cena": "res://scenes/jogos/APistaDasLetras.tscn", "imagem": preload("res://assets/disgner/WhatsApp Image 2026-07-09 at 02.04.43.jpeg")},
 	{"nome": "Estourar Sílabas", "cena": "res://scenes/jogos/Estourador de Sílabas.tscn", "imagem": preload("res://assets/disgner/retouch_2026070922171390.png")},
-	{"nome": "Forma Palavras", "cena": "res://scenes/jogos/Forma Palavras/FormaPalavras.tscn", "imagem": preload("res://assets/disgner/1-jpg-1200px-k8wi5ylara.webp")},
+	{"nome": "Forma Palavras", "cena": "res://scenes/jogos/Forma Palavras/formarpalavrasMenu.tscn", "imagem": preload("res://assets/disgner/retouch_2026072218415569.jpg")},
 ]
 
 func _ready():

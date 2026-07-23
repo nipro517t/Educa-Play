@@ -36,7 +36,10 @@ folder_colors={
 "res://assets/bolhaSilabas/": "gray",
 "res://assets/disgner/estouraSilabas/": "teal",
 "res://scenes/jogos/Estourador de Sílabas/": "gray",
-"res://scenes/jogos/alfabetos/": "green"
+"res://scenes/jogos/Forma Palavras/": "purple",
+"res://scenes/jogos/alfabetos/": "green",
+"res://scripts/Estourador de Sílabas/": "gray",
+"res://scripts/Forma Palavras/": "purple"
 }
 
 [physics]

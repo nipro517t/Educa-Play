@@ -1,7 +1,6 @@
 extends Control
 
 var lista_fases = [
-	"res://assets/disgner/estouraSilabas/30 Sem Título_20260709230014.png",
 	"res://scenes/jogos/Estourador de Sílabas/arena.tscn",
 	"res://scenes/jogos/Estourador de Sílabas/bala.tscn",
 	"res://scenes/jogos/Estourador de Sílabas/bota.tscn",
@@ -20,7 +19,7 @@ var lista_fases = [
 func _ready() -> void:
 	escolher_fase_aleatoria()
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
 
 func escolher_fase_aleatoria() -> void:

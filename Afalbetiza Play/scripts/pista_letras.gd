@@ -75,7 +75,7 @@ func ganhou_fase():
 	arrastando = false
 	print("Vitória! Tocar áudio: " + nome_letra)
 	# AudioManager.play_sfx("som_letra_" + nome_letra.to_lower())
-
+	Pause.adicionar_aura(1)
 	# Espera 2 segundos na tela de vitória e volta pro menu principal
 	await get_tree().create_timer(2.0).timeout
 	get_tree().change_scene_to_file("res://scenes/MenuPrincipal.tscn") # Ajuste para o caminho do seu menu

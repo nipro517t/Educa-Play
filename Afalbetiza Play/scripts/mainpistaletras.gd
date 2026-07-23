@@ -32,7 +32,7 @@ var lista_fases = [
 func _ready() -> void:
 	escolher_fase_aleatoria()
 	
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
 
 func escolher_fase_aleatoria() -> void:
